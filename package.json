@@ -1,0 +1,20 @@
+{
+  "name": "back-express",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend made in Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carpin.dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
