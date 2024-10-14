@@ -5,7 +5,7 @@ const controller = new employeesController();
 const routes = express.Router();
 
 routes.get("/:id", async (req, res) => {
-  return await controller.getEmployeeByID(req, res); //no le importa que va a pasar
+  return await controller.getEmployeeByID(req, res);
 });
 
 routes.get("/", async (req, res) => {
